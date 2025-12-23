@@ -2,8 +2,10 @@ import fs from 'fs'
 import { DOMParser, parseHTML } from 'linkedom'
 
 const pages = [
-    'https://tcrf.net/Category:GameCube_title_screens',
-    'https://tcrf.net/index.php?title=Category:GameCube_title_screens&filefrom=Pac-Man+World+2+%28GameCube%29-title.png#mw-category-media',
+    'https://tcrf.net/Category:Game_Boy_title_screens',
+    'https://tcrf.net/index.php?title=Category:Game_Boy_title_screens&filefrom=Global+Gladiators+GB+Title.png#mw-category-media',
+    'https://tcrf.net/index.php?title=Category:Game_Boy_title_screens&filefrom=Pop+%27N+Twinbee+%28E%29+title.png#mw-category-media',
+
 ]
 
 const fetchPageHtml = async (link) => {
@@ -28,7 +30,7 @@ if (!fs.existsSync('file-links.json')) {
         ]
     }
 
-    fs.writeFileSync('file-links.json', JSON.stringify(files, null, 2));   
+    fs.writeFileSync('file-links.json', JSON.stringify(files, null, 2));
 }
 
 const fileLinks = JSON.parse(fs.readFileSync('file-links.json', 'utf-8'))

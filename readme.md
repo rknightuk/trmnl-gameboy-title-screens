@@ -1,4 +1,4 @@
-### TRMNL GameCube Title Screens
+### TRMNL Game Boy Title Screens
 
 Install plugin: [https://usetrmnl.com/recipes/202626](https://usetrmnl.com/recipes/202626?ref=robb15)
 
