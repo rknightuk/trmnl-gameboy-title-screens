@@ -1,4 +1,4 @@
-### TRMNL PS2 Title Screens
+### TRMNL GameCube Title Screens
 
 Install plugin: [https://usetrmnl.com/recipes/130437](https://usetrmnl.com/recipes/130437?ref=robb15)
 
